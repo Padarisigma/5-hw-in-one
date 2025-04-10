@@ -24,3 +24,72 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+#backgroundImage
+{
+  background-image: url("assets/img-1.png");
+  background-repeat: no-repeat;  
+  background-size: 100% 100%;
+}
+
+#bgImg{
+  background-image: url('/fifth.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#izzy2{
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  height: 600px;
+  background-image: url(/Map.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#img{
+  background-image: url(/Rectangle\ 10.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 300px;
+}
