@@ -1,12 +1,28 @@
 import Image from "next/image"
+import Link from 'next/link'
 
 export default function FoodDelivery() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="w-full">
         <div className="w-full border-b-2 border-solid border-gray-300">
-          <nav className="w-[90%] m-auto flex justify-between py-[20px]">
+          <nav className="w-[90%] m-auto flex items-center justify-between py-[20px]">
             <Image src="/Logo.png" width={120} height={40} alt="Logo" />
+            <ul className="hidden sm:flex gap-[50px] text-[#424551]">
+                          <li className="hover:text-[#FF5A30]">
+                            <Link href="/">HW1</Link>
+                          </li>
+                          <li className="hover:text-[#FF5A30]"><Link href="/blog">HW2</Link></li>
+                          <li className="text-[#FF5A30]">
+                            <Link href="/about">HW3</Link>
+                          </li>
+                          <li className="hover:text-[#FF5A30]">
+                            <Link href="/contact">HW4</Link>
+                          </li>
+                          <li className="hover:text-[#FF5A30]">
+                            <Link href="#">HW5</Link>
+                          </li>
+                        </ul>
             <div className="flex gap-[50px]">
               <div className="hidden sm:flex items-center gap-[8px]">
                 <Image src="/person.png" width={24} height={24} alt="Person icon" />

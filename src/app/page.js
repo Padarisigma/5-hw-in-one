@@ -21,10 +21,10 @@ const page = () => {
 			<header id='backgroundImage' className='w-full pt-[50px]  h-[600px]'>
 				<nav className=''>
 					<ul className='hidden w-[80%] m-auto sm:flex uppercase gap-[100px] cursor-pointer items-center justify-center text-[20px] text-[white]'>
-						<li>hw1</li>
-						<li><Link href={'/blog'}>Hw2</Link></li>
-						<li><Link href={'/about'}>Hw3</Link></li>
-						<li>hw4</li>
+						<li className='text-[orange]'>hw1</li>
+						<li><Link href={'/blog'} className='hover:underline'>Hw2</Link></li>
+						<li><Link href={'/about'} className='hover:underline'>Hw3</Link></li>
+						<li><Link href={'/contact'} className='hover:underline'>Hw4</Link></li>
 						<li>hw5</li>
 					</ul>
 				</nav>

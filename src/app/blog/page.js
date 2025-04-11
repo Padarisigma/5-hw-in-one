@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import Link from "next/link"
 export default function Service() {
   return (
@@ -15,17 +14,17 @@ export default function Service() {
               </li>
               <li className="text-[#FF5A30]">HW2</li>
               <li className="hover:text-[#FF5A30]">
-                <Link href="/portfoliyo">HW3</Link>
+                <Link href="/about">HW3</Link>
               </li>
               <li className="hover:text-[#FF5A30]">
-                <Link href="/News">HW4</Link>
+                <Link href="/contact">HW4</Link>
               </li>
               <li className="hover:text-[#FF5A30]">
-                <Link href="/contacts">HW5</Link>
+                <Link href="#">HW5</Link>
               </li>
             </ul>
           </div>
-          <div className="flex gap-[30px]">
+          <div className="hidden sm:flex gap-[30px]">
             <div className="flex items-center gap-[10px]">
             <div className='bg-gray-300 w-[20px] h-[20px]'></div>
               <div>
@@ -43,7 +42,7 @@ export default function Service() {
           </div>
         </nav>
 
-        <div className="sm:px-[180px] bg-gray-300 py-[60px]">
+        <div className="px-[40px] sm:px-[180px] bg-gray-300 py-[60px]">
           <div className="flex gap-3 ">
             <p>Homepage</p> <span className="text-gray-400">/</span>
             <p className="text-gray-400">Services</p>
@@ -59,8 +58,8 @@ export default function Service() {
         </div>
       </header>
 
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-20 mt-20">
-        <div className='bg-gray-300 w-[600px] h-[400px]'>
+      <div className="flex sm:px-[0px] px-[30px] flex-col sm:flex-row items-center justify-center gap-20 mt-20">
+        <div className='bg-gray-300 w-[400px] sm:w-[600px] h-[400px]'>
           
         </div>
         <div>
@@ -80,7 +79,7 @@ export default function Service() {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-32 mt-20">
+      <div className="flex sm:px-[0px] px-[30px] flex-col sm:flex-row items-center justify-center gap-32 mt-20">
         <div>
           <p className="text-3xl font-bold">Project Development</p>
           <p className="text-gray-500 mt-10">
@@ -95,13 +94,13 @@ export default function Service() {
             Learn more
           </Link>
         </div>
-        <div className='bg-gray-300 w-[600px] h-[400px]'>
+        <div className='bg-gray-300  w-[400px] sm:w-[600px] h-[400px]'>
           
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-28 mt-20">
-      <div className='bg-gray-300 w-[600px] h-[400px]'>
+      <div className="flex flex-col sm:px-[0px] px-[30px] sm:flex-row items-center justify-center gap-28 mt-20">
+      <div className='bg-gray-300  w-[400px] sm:w-[600px] h-[400px]'>
           
           </div>
         <div>
@@ -122,7 +121,7 @@ export default function Service() {
         </div>
       </div>
 
-      <div className="flex flex-col pb-[60px] sm:flex-row items-center justify-center gap-32 mt-20">
+      <div className="flex sm:px-[0px] px-[30px] flex-col pb-[60px] sm:flex-row items-center justify-center gap-32 mt-20">
         <div>
           <p className="text-3xl font-bold">Repairs</p>
           <p className="text-gray-500 mt-10">
@@ -137,14 +136,14 @@ export default function Service() {
             Learn more
           </Link>
         </div>
-        <div className='bg-gray-300 w-[600px] h-[400px]'>
+        <div className='bg-gray-300  w-[400px] sm:w-[600px] h-[400px]'>
           
         </div>
       </div>
 
       <footer className="bg-[#1E212C]">
         <section className="bg-gray-300 py-[60px]">
-          <aside className="w-[75%] justify-end flex m-auto">
+          <aside className="w-[95%] sm:w-[75%] justify-end flex m-auto">
             <div className="bg-white sm:w-[40%] py-[40px] px-[30px] flex flex-col gap-[20px]">
               <p className="text-[#1E212C] text-[28px]">A quick way to discuss details</p>
               <div>

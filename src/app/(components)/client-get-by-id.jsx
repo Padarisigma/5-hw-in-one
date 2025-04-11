@@ -1,5 +1,5 @@
 "use client";
-import { Link } from 'lucide-react'
+import Link from 'next/link'
 import SwiperSlider from '../(components)/swiper';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
@@ -24,19 +24,19 @@ const ClientGetById = ({id}) => { // Убрали async
               </li>
               <li className="text-[#FF5A30]">HW2</li>
               <li className="hover:text-[#FF5A30]">
-                <Link href="/portfoliyo">HW3</Link>
+                <Link href="/about">HW3</Link>
               </li>
               <li className="hover:text-[#FF5A30]">
-                <Link href="/News">HW4</Link>
+                <Link href="/contact">HW4</Link>
               </li>
               <li className="hover:text-[#FF5A30]">
-                <Link href="/contacts">HW5</Link>
+                <Link href="#">HW5</Link>
               </li>
             </ul>
             <button onClick={() => changeLanguage('en')}>EN</button>
       <button onClick={() => changeLanguage('ru')}>RU</button>
           </div>
-          <div className="flex gap-[30px]">
+          <div className="hidden sm:flex gap-[30px]">
             <div className="flex items-center gap-[10px]">
             <div className='bg-gray-300 w-[20px] h-[20px]'></div>
               <div>
@@ -57,7 +57,7 @@ const ClientGetById = ({id}) => { // Убрали async
 
       {id == 1 ? (
        <div className="flex flex-col sm:flex-row items-center justify-center gap-20 mt-20">
-       <div className='bg-gray-300 w-[600px] h-[400px]'>
+       <div className='bg-gray-300 w-[400px] sm:w-[600px] h-[400px]'>
          
        </div>
        <div>
