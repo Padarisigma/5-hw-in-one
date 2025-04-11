@@ -4,7 +4,7 @@ import SwiperSlider from '../(components)/swiper';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const ClientGetById = ({id}) => { // Убрали async
+const ClientGetById = ({id}) => { 
   const { t, i18n } = useTranslation();
   
   const changeLanguage = (lng) => {
