@@ -71,23 +71,23 @@ const ClientGetById = ({id}) => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-32 mt-20">
         <div>
           <p className="text-3xl font-bold">{t('text5')}</p>
-          <p className="text-gray-500 w-[500px] mt-10">
+          <p className="text-gray-500 w-[400px] sm:w-[500px] mt-10">
             {t('text6')}
           </p>
       
         </div>
-        <div className='bg-gray-300 w-[600px] h-[400px]'>
+        <div className='bg-gray-300 w-[400px] sm:w-[600px]  h-[400px]'>
           
         </div>
       </div>
       ) : id == 3 ? (
         <div className="flex flex-col sm:flex-row items-center justify-center gap-28 mt-20">
-        <div className='bg-gray-300 w-[600px] h-[400px]'>
+        <div className='bg-gray-300 w-[400px] sm:w-[600px] h-[400px]'>
             
             </div>
           <div>
             <p className="text-3xl font-bold">{t('text7')}</p>
-            <p className="text-gray-500 w-[500px] mt-10">
+            <p className="text-gray-500 w-[350px] sm:w-[500px] mt-10">
               {t('text8')}
             </p>
           
@@ -97,12 +97,12 @@ const ClientGetById = ({id}) => {
         <div className="flex flex-col pb-[60px] sm:flex-row items-center justify-center gap-32 mt-20">
         <div>
           <p className="text-3xl font-bold">{t('text9')}</p>
-          <p className="text-gray-500 w-[500px] mt-10">
+          <p className="text-gray-500 w-[350px] sm:w-[500px] mt-10">
             {t('text10')}
           </p>
          
         </div>
-        <div className='bg-gray-300 w-[600px] h-[400px]'>
+        <div className='bg-gray-300 w-[400px] sm:w-[600px] h-[400px]'>
           
         </div>
       </div>
