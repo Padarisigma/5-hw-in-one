@@ -72,7 +72,6 @@ const Contact = () => {
   
 	return (
 		<div className="min-h-screen bg-gradient-to-b from-white to-sky-100">
-		  {/* Header */}
 		  <header className="container mx-auto py-4 px-4 flex items-center justify-between">
 			 <div className="flex items-center">
 				<div className="text-teal-500 text-2xl font-bold">//</div>
@@ -99,7 +98,6 @@ const Contact = () => {
 			 </button>
 		  </header>
   
-		  {/* Hero Section */}
 		  <section className="container mx-auto px-4 py-12 md:py-20 relative overflow-hidden">
 			 <div className="absolute right-0 top-0 w-full h-full">
 				<div className="absolute right-0 top-0 w-3/4 h-full">
@@ -145,7 +143,6 @@ const Contact = () => {
 			 </div>
 		  </section>
   
-		  {/* Features Section */}
 		  <section className="bg-teal-500 py-16">
 			 <div className="container mx-auto px-4">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -210,10 +207,8 @@ const Contact = () => {
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold mb-8 text-center">Order Process with POZION</h1>
 
-        {/* Process Steps */}
         <div className="relative">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
-            {/* Step 1 */}
             <div className="flex flex-col items-center">
               <div className="bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 z-10">
                 <span className="font-medium">01</span>
@@ -226,7 +221,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Step 2 */}
             <div className="flex flex-col items-center">
               <div className="bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 z-10">
                 <span className="font-medium">02</span>
@@ -236,7 +230,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Step 3 */}
             <div className="flex flex-col items-center">
               <div className="bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 z-10">
                 <span className="font-medium">03</span>
@@ -248,7 +241,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Step 4 */}
             <div className="flex flex-col items-center">
               <div className="bg-sky-100 text-sky-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 z-10">
                 <span className="font-medium">04</span>
@@ -260,16 +252,13 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Dotted line connecting steps (visible on larger screens) */}
             <div className="hidden md:block absolute top-6 left-0 right-0 h-0 w-full z-0">
               <div className="border-t-2 border-dashed border-sky-200 mx-16"></div>
             </div>
           </div>
         </div>
 
-        {/* Main Content Area */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left Column - Price Calculator */}
           <div className="bg-gray-50 p-6 rounded-xl relative">
             <h2 className="text-xl font-bold mb-6">Calculate order cost directly on the site</h2>
 
@@ -298,13 +287,11 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Currency Symbol */}
             <div className="absolute bottom-4 left-4 text-teal-200 opacity-30">
               <span className="text-6xl font-bold">₽</span>
             </div>
           </div>
 
-          {/* Right Column - CTA */}
           <div className="bg-teal-500 text-white p-6 rounded-xl relative overflow-hidden">
             <div className="relative z-10">
               <h2 className="text-xl font-bold mb-2">Like the price?</h2>
@@ -323,7 +310,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Decorative Elements */}
             <div className="absolute right-0 bottom-0 z-0">
               <Image
                 src="/91c36c78f84f2732925a0351b565f12f 1.png"
@@ -334,7 +320,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Floating Icons */}
             <div className="absolute top-20 right-20 text-teal-200 opacity-30">
               <div className="w-10 h-10 rounded-full bg-white/20"></div>
             </div>
@@ -364,7 +349,6 @@ const Contact = () => {
       <h1 className="text-2xl font-bold mb-6">Как правильно подобрать размер обуви?</h1>
 
       <div className="grid md:grid-cols-2 gap-8 items-start">
-        {/* Size Chart */}
         <Card className="overflow-hidden border-[#4DD0E1] border-2">
           <Table>
             <TableHeader className="bg-[#4DD0E1]">
@@ -384,9 +368,7 @@ const Contact = () => {
           </Table>
         </Card>
 
-        {/* Measurement Guide */}
         <div className="flex flex-col md:flex-row gap-6">
-          {/* Steps */}
           <div className="flex-1">
             <div className="relative">
               {steps.map((step, index) => (
@@ -400,7 +382,6 @@ const Contact = () => {
                     <p className="text-sm">{step.text}</p>
                   </div>
 
-                  {/* Connecting line */}
                   {index < steps.length - 1 && <div className="absolute left-6 top-12 w-0.5 h-12 bg-[#E0F7FA]"></div>}
                 </div>
               ))}
@@ -410,8 +391,6 @@ const Contact = () => {
               Узнав большую размер своей стопы в СМ, сверься с нашей таблицей и найди свой размер.
             </p>
           </div>
-
-          {/* Shoe Image */}
           <div className="flex-1 flex items-center justify-center">
             <div className="relative">
               <Image
@@ -440,9 +419,7 @@ const Contact = () => {
     </div>
 	 <footer className="bg-black text-white py-6 px-4 md:px-8">
       <div className="container mx-auto">
-        {/* Top section with logo and navigation */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
-          {/* Logo */}
           <div className="flex items-center mb-4 md:mb-0">
             <div className="mr-2">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -468,7 +445,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Navigation */}
           <nav className="flex flex-wrap gap-x-6 gap-y-2 mb-4 md:mb-0 text-sm">
             <Link href="/" className="hover:text-gray-300 transition-colors">
               Главная
@@ -493,7 +469,6 @@ const Contact = () => {
             </Link>
           </nav>
 
-          {/* Order button */}
           <button className="bg-white text-black rounded-full px-4 py-2 text-sm font-medium flex items-center">
             Сделать заказ
             <svg
@@ -515,10 +490,8 @@ const Contact = () => {
           </button>
         </div>
 
-        {/* Divider */}
         <div className="border-t border-gray-800 my-4"></div>
 
-        {/* Bottom section with credits */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
           <div>Designed with love by MRN design agency</div>
           <div>Все права защищены ©2023</div>
