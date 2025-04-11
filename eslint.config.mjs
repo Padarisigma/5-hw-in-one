@@ -9,6 +9,15 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [...compat.extends("next/core-web-vitals")];
+// Расширяем базовую конфигурацию Next.js
+const eslintConfig = [
+  ...compat.extends("next/core-web-vitals"),
+  {
+    rules: {
+      "react/jsx-no-comment-textnodes": "off", 
+      "react/no-unescaped-entities": "off",  
+    },
+  },
+];
 
 export default eslintConfig;
