@@ -20,12 +20,12 @@ const Contact = () => {
 		{
 		  question: "Can I order an item that's not in your inventory?",
 		  answer:
-			 "Yes, of course. If you don't find the item you need in our inventory, we can offer to place an order from our warehouse overseas. Delivery from overseas to our local warehouse takes 5 to 15 days. After that, considering the time for pickup and delivery to your city, customers usually receive their items within 2 weeks.",
+			 "Yes, of course. If you don t find the item you need in our inventory, we can offer to place an order from our warehouse overseas. Delivery from overseas to our local warehouse takes 5 to 15 days. After that, considering the time for pickup and delivery to your city, customers usually receive their items within 2 weeks.",
 		},
 		{
 		  question: "Do you provide original products?",
 		  answer:
-			 "With us, you'll find only original products. Our strong connections with suppliers from Europe and Asia have been verified by time and thousands of deliveries.",
+			 "With us, you ll find only original products. Our strong connections with suppliers from Europe and Asia have been verified by time and thousands of deliveries.",
 		},
 		{
 		  question: "What guarantees do you offer?",
@@ -243,7 +243,7 @@ const Contact = () => {
               </div>
               <div className="text-center">
                 <p className="text-sm">
-                  At the customer's request, we provide additional photo/video of the interesting pair
+                  At the customers request, we provide additional photo/video of the interesting pair
                 </p>
               </div>
             </div>

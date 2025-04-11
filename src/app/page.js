@@ -52,7 +52,7 @@ const page = () => {
 							<p className='text-[19px] text-[#20201F]'>About us</p>
 						</div>
 					</aside>
-					<img src={img2.src} className='w-[650px] select-none' alt='image' />
+					<Image src={img2} width={650} height={600} alt='image' />
 				</section>
 				<section className='bg-[#E5E2DE] py-[100px]'>
 					<aside className='flex gap-[20px] items-center w-[90%] m-auto'>
